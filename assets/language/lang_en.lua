@@ -31,7 +31,7 @@ return{
 
     loadError_errorMode="'$1' loading failed: no load mode '$2'",
     loadError_read="'$1' loading failed: read failed",
-    loadError_noFile="'$1' loading failed no file:",
+    loadError_noFile="'$1' loading failed: no file",
     loadError_other="'$1' loading failed: $2",
     loadError_unknown="'$1' loading failed: unknown reason",
 
@@ -48,7 +48,7 @@ return{
     pasteWrongPlace="Paste at the wrong place?",
     noFile="File missing",
 
-    validScore="Score saved($1)",
+    validScore="Score saved ($1)",
     invalidScore="Invalid score, not saved",
 
     noScore="No scores",
@@ -62,7 +62,7 @@ return{
     dropSpeedChanged="Drop speed changed to $1",
     cannotAdjustDropSpeed="Cannot adjust drop speed now",
 
-    errorMsg="Quatrack ran into a problem and needs to restart.\nYou can send the error log to the developers.",
+    errorMsg="Quatrack ran into a problem and needs to restart.\nYou can send the error log to the developers.\nWARNING: this is an unofficial Quatrack mod.",
 
     stat={
         "Game run:",
@@ -82,11 +82,14 @@ return{
         "",
         "Special Thanks:",
         "Big_True",
+        "",
+        "QuatrackPlus:",
+        "Mizu",
     },
 
     -- Widget texts
     main_play="Play",
-    main_setting="Setting",
+    main_setting="Settings",
     main_editor="Editor",
 
     mapSelect_sortMode="Sort Mode",

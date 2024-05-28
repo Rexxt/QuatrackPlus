@@ -1,5 +1,5 @@
 function love.conf(t)
-    local identity='Quatrack'
+    local identity='QuatrackPlus'
     local mobile=love._os=='Android' or love._os=='iOS'
     local msaa=4
     local portrait=false
@@ -23,6 +23,8 @@ function love.conf(t)
         t.audio.mic=false
         t.audio.mixwithsystem=true
     end
+
+    t.console = true
 
     local M=t.modules
     M.window,M.system,M.event,M.thread=true,true,true,true
@@ -50,7 +52,7 @@ function love.conf(t)
         W.width,W.height=1280,720
         W.minwidth,W.minheight=640,360
     end
-    W.title="Quatrack "..require"version".string
+    W.title="QuatrackPlus "..require"version".string
 
     if fs.getInfo('assets/image/icon.png') then
         W.icon='assets/image/icon.png'

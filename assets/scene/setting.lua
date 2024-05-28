@@ -61,7 +61,7 @@ scene.widgetList={
     WIDGET.new{type='slider_fill',pos={0,0},x=260, y=350,w=420,h=35,text=LANG'setting_bgAlpha',     widthLimit=200,disp=TABLE.func_getVal(SETTINGS,'bgAlpha'), code=TABLE.func_setVal(SETTINGS,'bgAlpha')},
 
     WIDGET.new{type='slider',     pos={0,0},x=260, y=450,w=420,     text=LANG'setting_musicDelay',  widthLimit=200,axis={-260,260,1},smooth=true,disp=TABLE.func_getVal(SETTINGS,'musicDelay'), valueShow=sliderShow_time,code=function(v) SETTINGS.musicDelay=v;_updateSFXvol() end},
-    WIDGET.new{type='slider',     pos={0,0},x=260, y=500,w=420,     text=LANG'setting_dropSpeed',   widthLimit=200,axis={-8,8,1},                disp=TABLE.func_getVal(SETTINGS,'dropSpeed'),  code=TABLE.func_setVal(SETTINGS,'dropSpeed')},
+    WIDGET.new{type='slider',     pos={0,0},x=260, y=500,w=420,     text=LANG'setting_dropSpeed',   widthLimit=200,axis={-8,8,.1},smooth=true,   disp=TABLE.func_getVal(SETTINGS,'dropSpeed'),  code=TABLE.func_setVal(SETTINGS,'dropSpeed')},
     WIDGET.new{type='slider',     pos={0,0},x=260, y=600,w=420,     text=LANG'setting_noteThick',   widthLimit=200,axis={10,50,4},               disp=TABLE.func_getVal(SETTINGS,'noteThick'),  code=TABLE.func_setVal(SETTINGS,'noteThick')},
     WIDGET.new{type='slider',     pos={0,0},x=260, y=650,w=420,     text=LANG'setting_chordAlpha',  widthLimit=200,axis={0,1,.01},smooth=true,   disp=TABLE.func_getVal(SETTINGS,'chordAlpha'), code=TABLE.func_setVal(SETTINGS,'chordAlpha')},
     WIDGET.new{type='slider',     pos={0,0},x=260, y=700,w=420,     text=LANG'setting_holdAlpha',   widthLimit=200,axis={.2,.8},                 disp=TABLE.func_getVal(SETTINGS,'holdAlpha'),  code=TABLE.func_setVal(SETTINGS,'holdAlpha')},

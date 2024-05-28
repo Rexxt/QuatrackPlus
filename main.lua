@@ -126,6 +126,8 @@ do-- Zenitha.setOnFocus
 end
 do-- Zenitha.setDrawSysInfo
     Zenitha.setDrawSysInfo(function()
+        FONT.set(15,'_basic')
+        GC.printf("QuatrackPlus", 0, 0, love.graphics.getWidth(), 'right')
         if not SETTINGS.powerInfo then return end
         GC.translate(SCR.safeX,0)
         GC.setColor(0,0,0,.26)
@@ -188,8 +190,9 @@ WIDGET._prototype.button_fill.textColor=TABLE.shift(COLOR.D)
 LANG.add{
     zh='assets/language/lang_zh.lua',
     en='assets/language/lang_en.lua',
+    fr='assets/language/lang_fr.lua'
 }
-LANG.setDefault('zh')
+LANG.setDefault('en')
 --[Attention] Not loading IMG/SFX/BGM files here, just read file paths
 IMG.init{
     logo_full='assets/image/logo_full.png',

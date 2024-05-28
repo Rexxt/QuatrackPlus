@@ -52,7 +52,7 @@ local function _setLang(lid)
         duration=1.6,
     }
     collectgarbage()
-    WIDGET.resize()
+    --WIDGET.resize()
     if FIRSTLAUNCH then SCN.back() end
 end
 
@@ -62,7 +62,7 @@ scene.widgetList={
     WIDGET.new{type='button'     ,x=270,y=450,w=330,h=100,fontSize=35, text='',          color='O', sound_press='check'},
     WIDGET.new{type='button'     ,x=270,y=570,w=330,h=100,fontSize=35, text='',          color='Y', sound_press='check'},
 
-    WIDGET.new{type='button'     ,x=640,y=210,w=330,h=100,fontSize=40, text='',          color='A', sound_press='check'},
+    WIDGET.new{type='button_fill',x=640,y=210,w=330,h=100,fontSize=40, text=langList.fr, color='A', sound_press='check',code=function() _setLang('fr') end},
     WIDGET.new{type='button'     ,x=640,y=330,w=330,h=100,fontSize=40, text='',          color='K', sound_press='check'},
     WIDGET.new{type='button'     ,x=640,y=450,w=330,h=100,fontSize=40, text='',          color='G', sound_press='check'},
     WIDGET.new{type='button'     ,x=640,y=570,w=330,h=100,fontSize=40, text='',          color='J', sound_press='check'},

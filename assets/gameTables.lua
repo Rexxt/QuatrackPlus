@@ -112,11 +112,11 @@ hitColors={
 hitTexts={
     [-1]="MISS",
     [0]="BAD",
-    'WELL',
+    'OKAY',
     'GOOD',
-    'PERF',
-    'PREC',
-    'MARV'
+    'GREAT',
+    'PRECISE',
+    'MARVELOUS'
 }
 chainColors={
     [0]=COLOR.lD,

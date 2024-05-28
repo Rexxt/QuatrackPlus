@@ -62,7 +62,7 @@ return{
     dropSpeedChanged="下落速度调整为$1",
     cannotAdjustDropSpeed="此时不能调整下落速度",
 
-    errorMsg="Quatrack遭受了雷击,需要重新启动.\n我们已收集了一些错误信息,你可以向作者进行反馈.",
+    errorMsg="Quatrack遭受了雷击,需要重新启动.\n我们已收集了一些错误信息,你可以向作者进行反馈.\n警告:这是一个非官方的 Quatrack 模组.",
 
     stat={
         "启动次数:",
@@ -82,6 +82,9 @@ return{
         "",
         "特别感谢:",
         "蕴空之灵, Big_True",
+        "",
+        "QuatrackPlus:",
+        "Mizu",
     },
 
     -- Widget texts

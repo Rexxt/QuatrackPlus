@@ -1,0 +1,147 @@
+return{
+    loadText={
+        loadSFX="Chargement des effets sonores",
+        loadVoice="Chargement des packs vocaux",
+        loadFont="Chargement des polices",
+        loadModeIcon="Chargement des icônes de modes",
+        loadMode="Chargement des modes",
+        loadOther="Chargement d'autres ressources",
+        finish="Appuyez sur n'importe quelle touche pour démarrer !",
+    },
+    setting_needRestart="Ce paramètre prendra effet après un redémarrage",
+    sureQuit="Appuyez à nouveau pour quitter",
+    sureReset="Appuyez à nouveau pour réinitialiser",
+    newDay="Nouveau jour, nouveau départ !",
+    playedLong="Vous jouez depuis longtemps. C'est l'heure de faire une pause !",
+    playedTooMuch="Vous jouez depuis bien trop longtemps ! Quatrack est fun, mais n'oubliez pas de faire des pauses !",
+
+    music_early="$1 plus tôt",
+    music_late="$1 plus tard",
+    music_nodelay="Pas de délai",
+
+    pause="Pause",
+    pauseCount="Pauses",
+    chainTexts={
+        "NO BREAK",
+        "NO BREAK+",
+        "ALL PERFECT",
+        "ALL PERFECT+",
+        "MARVELOUS",
+    },
+
+    loadError_errorMode="Chargement de '$1' échoué : pas de mode de lecture '$2'",
+    loadError_read="Chargement de '$1' échoué : échec de lecture",
+    loadError_noFile="Chargement de '$1' échoué : pas de fichier",
+    loadError_other="Chargement de '$1' échoué : $2",
+    loadError_unknown="Chargement de '$1' échoué : raison inconnue",
+
+    saveError_duplicate="Sauvegarde de '$1' échouée : nom de fichier dupliqué",
+    saveError_encode="Sauvegarde de '$1' échouée : échec d'encodage",
+    saveError_other="Sauvegarde de '$1' échouée : $2",
+    saveError_unknown="Sauvegarde de '$1' échouée : raison inconnue",
+
+    copyDone="Copié!",
+    saveDone="Données sauvegardées",
+    exportSuccess="Exporté avec succès",
+    importSuccess="Importé avec succès",
+    dataCorrupted="Données corrompues",
+    pasteWrongPlace="Collé au mauvais endroit ?",
+    noFile="Fichier manquant",
+
+    validScore="Score sauvegardé ($1)",
+    invalidScore="Score invalide, pas sauvegardé",
+
+    noScore="Pas de scores",
+    modeLocked="Verrouillé",
+    unlockHint="Atteignez le Rang B ou mieux dans les modes précédents pour déverrouiller",
+    highScore="Meilleurs scores",
+    newRecord="Nouveau record !",
+
+    keySettingInstruction="Appuyez pour assigner une touche\néchap: annuler\nretour: supprimer",
+
+    dropSpeedChanged="Vitesse de défilement changée à $1",
+    cannotAdjustDropSpeed="Impossible d'ajuster la vitesse de défilement",
+
+    errorMsg="Quatrack a rencontré une erreur et doit redémarrer.\nVous pouvez envoyer le log d'erreur aux développeurs.\nATTENTION : ceci est un mod non officiel de Quatrack.",
+
+    stat={
+        "Jeu démarré :",
+        "Parties jouées :",
+        "Temps en jeu :",
+        "Score total :",
+    },
+    staff={
+        "Auteur : MrZ  Email: 1046101471@qq.com",
+        "Fait avec LÖVE",
+        "",
+        "Programme : MrZ",
+        "Conception des règles : MrZ, 蕴空之灵",
+        "Musique : T6735, T0722",
+        "Art : MrZ",
+        "Son : MrZ",
+        "",
+        "Remerciements :",
+        "Big_True",
+        "",
+        "QuatrackPlus:",
+        "Mizu",
+    },
+
+    -- Widget texts
+    main_play="Jouer",
+    main_setting="Paramètres",
+    main_editor="Editeur",
+
+    mapSelect_sortMode="Mode de tri",
+    mapSelect_sortModes={
+        difficulty='Difficulté',
+        name='Nom',
+    },
+
+    stat_path="Ouvrir dossier de sauvegarde",
+
+    setting_mainVol="Volume principal",
+    setting_bgm="BGM",
+    setting_sfx="SFX",
+    setting_stereo="Stéréo",
+
+    setting_bgAlpha="Luminosité du fond d'écran",
+    setting_musicDelay="Délai musical",
+    setting_dropSpeed="Vitesse de défilement",
+    setting_noteThick="Epaisseur de la note",
+    setting_chordAlpha="Opacité des notes simultanées",
+    setting_holdAlpha="Opacité des notes longues",
+    setting_holdWidth="Epaisseur des notes longues",
+    setting_scaleX="Agrandissement axe X",
+    setting_trackW="Epaisseur de la piste",
+    setting_safeX="Zone horizontale sécurisée",
+    setting_safeY="Zone verticale sécurisée",
+    setting_showHitLV="Jugement maximal affiché",
+    setting_dvtCount="Deviate Sample Count",
+
+    setting_sysCursor="Curseur système",
+    setting_clickFX="Effets au clic",
+    setting_power="Infos batterie",
+    setting_clean="Dessin rapide",
+    setting_fullscreen="Plein écran",
+    setting_portrait="Portrait",
+    setting_autoMute="Muet en arrière-plan",
+    setting_slowUnfocus="Ralenti en arrière-plan",
+
+    setting_maxFPS="IPS maximales",
+    setting_updRate="Taux d'actualisation",
+    setting_drawRate="Taux de dessin",
+    setting_msaa="MSAA",
+
+    setting_showTouch="Afficher les appuis à l'écran",
+
+    keySetting_restart="redémarrer",
+    keySetting_skip="passer",
+    keySetting_auto="auto",
+    keySetting_sfxVolDn="SFX Vol-",
+    keySetting_sfxVolUp="SFX Vol+",
+    keySetting_musicVolDn="Music Vol-",
+    keySetting_musicVolUp="Music Vol+",
+    keySetting_dropSpdDn="Défilement-",
+    keySetting_dropSpdUp="Défilement+",
+}
